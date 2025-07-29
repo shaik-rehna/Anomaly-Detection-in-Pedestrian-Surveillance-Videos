@@ -4,7 +4,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 
 
-This project implements a real-time pipeline for detecting anomalies in surveillance footage using object detection (YOLOv5), tracking (DeepSORT), and custom rule-based logic. Applied on the UCSD Ped2 and Avenue datasets.
+This project implements a pipeline for detecting anomalies in surveillance footage using object detection (YOLOv5), tracking (DeepSORT), and custom rule-based logic. Applied on the UCSD Ped2 and Avenue datasets.
 
 ---
 
