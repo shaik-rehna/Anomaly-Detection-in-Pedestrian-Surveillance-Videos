@@ -8,17 +8,18 @@ This project implements a pipeline for detecting anomalies in surveillance foota
 
 ---
 
-### 📌 Features
+### Features
 
-* 🧠 **YOLOv5** trained on **MOT17** for pedestrian detection
-* 🧭 **DeepSORT** for multi-object tracking across frames
-* 🚨 **Rule-based anomaly detection** based on velocity and motion patterns
-* 🎥 **Video output with bounding boxes** (Green = normal, Red = anomaly)
-* 📊 Easily tunable parameters: velocity threshold, smoothing, warmup
+* **YOLOv5** trained on **MOT17** for pedestrian detection
+* **DeepSORT** for multi-object tracking across frames
+* **Rule-based anomaly detection** based on velocity and motion patterns
+* **Video output with bounding boxes** (Red = anomaly)
+* Easily tunable parameters: velocity threshold, smoothing
+
 
 ---
 
-### 📁 Project Structure
+### Project Structure
 
 ```bash
 .
@@ -35,14 +36,14 @@ This project implements a pipeline for detecting anomalies in surveillance foota
 
 ---
 
-### 🧪 Datasets Used
+### Datasets Used
 
 * [MOT17](https://motchallenge.net/data/MOT17/) — for training the pedestrian detector
 * [UCSD Ped2](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm) and [Avenue Dataset](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html) — for testing anomaly detection
 
 ---
 
-### 🚀 Running the Pipeline
+### Running the Pipeline
 
 #### 1. Clone YOLOv5 and install requirements
 
@@ -65,7 +66,7 @@ Arguments:
 
 ---
 
-### ⚙️ Key Logic
+### ⚙Key Logic
 
 * **Anomaly = high velocity**
   Track object motion over frames using DeepSORT. If speed exceeds a set threshold → mark as anomaly.
@@ -78,13 +79,13 @@ Arguments:
 
 ---
 
-### 📷 Example Output
+### Example Output
 
 ![example\_frame](https://github.com/yourusername/yourrepo/raw/main/assets/sample_frame.png)
 
 ---
 
-### 📌 TODO / Extensions
+### TODO / Extensions
 
 * Add temporal models (e.g. ConvLSTM)
 * Extend rule-based logic (size, trajectory deviation)
@@ -92,7 +93,7 @@ Arguments:
 
 ---
 
-### ✍️ Authors
+### Authors
 
 * Your Name – *Project Lead & Developer*
 * SOC 2025, Web and Coding Club, IIT Bombay
