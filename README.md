@@ -9,7 +9,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
   1. Using a YOLOv5 model fine-tuned on the MOT17 dataset for pedestrian detection
   2. Using a pre-trained YOLOv5 model trained on the COCO dataset
 * By training on MOT17 dataset alone, the objects other than pedestrian cannot be detected.
-* So the pipeline containing custom YOLOv5 detector was used for identifying anomalies associated with pedestrians(used for Avenue dataset)
+* So the pipeline containing fine-tuned YOLOv5 detector was used for identifying anomalies associated with pedestrians(used for Avenue dataset)
 * Another pipeline containing pretrained YOLOv5 detector was used for identifying wide range of anomlaies like pedestrian running, bicyle and truck ( used for Aveune and UCSD Ped2  datasets)
 ---
 
