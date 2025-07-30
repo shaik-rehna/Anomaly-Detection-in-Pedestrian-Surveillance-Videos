@@ -18,7 +18,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 * **YOLOv5** fine-tuned on **MOT17** for pedestrian detection 
 * **DeepSORT** for multi-object tracking across frames
 * **Rule-based anomaly detection** based on velocity and objects
-* Pedestrian crossing a certain velocity_threshold is flagged as anomaly
+* Pedestrians crossing a certain velocity threshold are flagged as anomaly
 * Objects such as bicycle, truck are flagged as anomlay
 * **Video output with bounding boxes and IDs** (Red = anomaly)
 * Easily tunable parameters: velocity threshold, smoothing
@@ -26,13 +26,13 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ### Datasets Used
 
-* [MOT17](https://motchallenge.net/data/MOT17/) — for training the custom pedestrian detector
+* [MOT17](https://motchallenge.net/data/MOT17/) — for fine-tuning the YOLOv5 model to build pedestrian detector
   
 * [Avenue Dataset](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html) — for testing anomaly detection
   
 ***This dataset accompanies paper "Abnormal Event Detection at 150 FPS in Matlab, Cewu Lu, Jianping Shi, Jiaya Jia, International Conference on Computer Vision, (ICCV), 2013"***
 
-* [UCSD Ped2](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm)
+* [UCSD Ped2](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm) — for testing anomaly detection
   
 ***Citation:***
 ***Anomaly Detection in Crowded Scenes.***
@@ -45,7 +45,8 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 * **High velocity**
   
-  Track object motion over frames using DeepSORT. If speed exceeds a set threshold → mark as anomaly.
+  Track object motion over frames using DeepSORT. If speed exceeds a set threshold → mark as anomaly
+  
   Object like bicycle, truck → mark as anomaly 
 
 * **New/reappearing objects**
