@@ -29,29 +29,6 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ---
 
-### Running the Pipeline
-
-#### 1. Clone YOLOv5 and install requirements
-
-```bash
-git clone https://github.com/ultralytics/yolov5
-cd yolov5
-pip install -r requirements.txt
-```
-
-#### 2. Run full detection + tracking + anomaly detection:
-
-```bash
-python detect_and_track.py --video input_videos/avenue_01.mp4 --output output_videos/result_01.mp4
-```
-
-Arguments:
-
-* `--video`: input video path
-* `--output`: output video with anomaly labels
-
----
-
 ### Key Anomaly Logic
 
 * **High velocity**
