@@ -49,7 +49,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 ### Results
 * Pipeline with custom detector
   ### Average frame level precision = 0.62
-![example\_frame](https://github.com/yourusername/yourrepo/raw/main/assets/sample_frame.png)
+![Result_1](https://github.com/shaik-rehna/Anomaly-Detection-in-Pedestrian-Surveillance-Videos.git/result_custom_detector.png)
 
 ---
 
