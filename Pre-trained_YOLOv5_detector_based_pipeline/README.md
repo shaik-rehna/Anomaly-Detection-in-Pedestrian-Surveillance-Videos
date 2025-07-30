@@ -4,4 +4,7 @@
 
 * A Rule-based anomaly detection based on velocity and objects is implemented
 
+* Pedestrian crossing a certain velocity_threshold is flagged as anomaly
+
+* Objects such as bicycle, truck are flagged as anomlay
 
