@@ -2,6 +2,6 @@
 
 * DeepSORT is employed to perform multi-object tracking across frames.
 
-* A rule-based anomaly detection mechanism is implemented 
+* A Rule-based anomaly detection based on velocity and objects is implemented
 
 
