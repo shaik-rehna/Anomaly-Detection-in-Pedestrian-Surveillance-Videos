@@ -71,10 +71,5 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ---
 
-### TODO / Extensions
-
-* Add temporal models (e.g. ConvLSTM)
-* Extend rule-based logic (size, trajectory deviation)
-* Add GUI to adjust parameters live
 
 
