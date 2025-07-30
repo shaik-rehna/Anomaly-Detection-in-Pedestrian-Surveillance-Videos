@@ -18,6 +18,8 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 * **YOLOv5** trained on **MOT17** for pedestrian detection (custom detector)/ pretrained YOLOv5m detector
 * **DeepSORT** for multi-object tracking across frames
 * **Rule-based anomaly detection** based on velocity and objects
+* Pedestrian crossing a certain velocity_threshold is flagged as anomaly
+* Objects such as bicycle, truck are flagged as anomlay
 * **Video output with bounding boxes and IDs** (Red = anomaly)
 * Easily tunable parameters: velocity threshold, smoothing
 
