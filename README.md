@@ -52,7 +52,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 ![Results](result_custom_detector.png)
 
 * Pipeline with pre-trained YOLOv5 detector
-  1. Avenue Dataset
+  1. UCSD Dataset
   ### Average frame level precision = 0.9914
   ### Average pixel level precision = 0.7723
 ![Results](result_custom_detector.png)
