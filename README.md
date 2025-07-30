@@ -48,7 +48,8 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ### Results
 * Pipeline with custom YOLOv5 detector trained on MOT17 dataset
-  ### Average frame level precision = 0.62
+  ### Average frame level precision = 0.5882
+  ### Average pixel level precision = 0.4874
 ![Results](result_custom_detector.png)
 
 * Pipeline with pre-trained YOLOv5 detector
@@ -58,8 +59,8 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 ![Results](result_pretrained_detector_ucsd.png)
 
 2. Avenue Dataset
-  ### Average frame level precision = 0.9914
-  ### Average pixel level precision = 0.7723
+  ### Average frame level precision = 0.4565
+  ### Average frame level precision = 0.3880
 ![Results](result_pretrained_detector_Avenue.png)
 
 ---
