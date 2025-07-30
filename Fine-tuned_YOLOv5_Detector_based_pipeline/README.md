@@ -1,4 +1,6 @@
-* In this pipeline a YOLOv5 based detector fine-tuned on MOT17 Dataset is used
-* DeepSORT is used for multi-object tracking across frames
-* Rule-based anomaly detection based on velocity of the pedestrian is implemented
+* A YOLOv5-based object detector, fine-tuned on the MOT17 dataset, is used for pedestrian detection.
+
+* DeepSORT is employed to perform multi-object tracking across frames.
+
+* A rule-based anomaly detection mechanism is implemented, using the velocity of pedestrians as the primary criterion.
 
