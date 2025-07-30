@@ -81,5 +81,17 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ---
 
+### Applications
+
+   
+* Detect unusual pedestrian behavior (e.g., running, loitering, sudden motion) in public places like Airports, Train stations, Shopping malls, Smart cities
+
+* Flag events like Skateboarding, fighting, or people running in restricted areas
+
+
+
+
+
+
 
 
