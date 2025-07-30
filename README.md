@@ -6,8 +6,8 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 * The pipeline is tested on UCSD and Avenue Datasets
 ---
 * The detection part in the pipeline was implemented in two ways:
-  1. Using a custom YOLOv5-based pedestrian detector trained on the MOT17 dataset
-  2. Using a pre-trained YOLOv5 detector trained on COCO dataset
+  1. Using a YOLOv5 model fine-tuned on the MOT17 dataset for pedestrian detection
+  2. Using a pre-trained YOLOv5 model trained on the COCO dataset
 * By training on MOT17 dataset alone, the objects other than pedestrian cannot be detected.
 * So the pipeline containing custom YOLOv5 detector was used for identifying anomalies associated with pedestrians(used for Avenue dataset)
 * Another pipeline containing pretrained YOLOv5 detector was used for identifying wide range of anomlaies like pedestrian running, bicyle and truck ( used for Aveune and UCSD Ped2  datasets)
@@ -47,7 +47,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 ---
 
 ### Results
-***Pipeline with custom YOLOv5 detector trained on MOT17 dataset***
+***Pipeline with fine-tuned YOLOv5 model on MOT17 dataset***
 
   #### Average frame level precision = 0.5882
   #### Average pixel level precision = 0.4874
