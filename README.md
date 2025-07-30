@@ -27,7 +27,17 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 ### Datasets Used
 
 * [MOT17](https://motchallenge.net/data/MOT17/) — for training the custom pedestrian detector
-* [UCSD Ped2](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm) and [Avenue Dataset](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html) — for testing anomaly detection
+  
+* [Avenue Dataset](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html) — for testing anomaly detection
+  
+***This dataset accompanies paper "Abnormal Event Detection at 150 FPS in Matlab, Cewu Lu, Jianping Shi, Jiaya Jia, International Conference on Computer Vision, (ICCV), 2013"***
+
+* [UCSD Ped2](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm)
+  
+***Citation:***
+***Anomaly Detection in Crowded Scenes.***
+***V. Mahadevan, W. Li, V. Bhalodia and N. Vasconcelos.***
+***In Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), San Francisco, CA, 2010***
 
 ---
 
