@@ -15,7 +15,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ### Key Features
 
-* **YOLOv5** trained on **MOT17** for pedestrian detection (custom detector)/ pretrained YOLOv5m detector
+* **YOLOv5** fine-tuned on **MOT17** for pedestrian detection 
 * **DeepSORT** for multi-object tracking across frames
 * **Rule-based anomaly detection** based on velocity and objects
 * Pedestrian crossing a certain velocity_threshold is flagged as anomaly
