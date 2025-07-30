@@ -3,7 +3,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 
 * This project implements a pipeline for detecting anomalies in pedestrian surveillance footage using object detection (YOLOv5), tracking (DeepSORT), and custom rule-based logic.
-* The pipeline is tested on UCSD and Avenue Datasets
+* This pipeline is tested on UCSD and Avenue Datasets
 ---
 * The detection part in the pipeline was implemented in two ways:
   1. Using a YOLOv5 model fine-tuned on the MOT17 dataset for pedestrian detection
