@@ -32,13 +32,16 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 ### Key Anomaly Logic
 
 * **High velocity**
+  
   Track object motion over frames using DeepSORT. If speed exceeds a set threshold → mark as anomaly.
   Object like bicycle, truck → mark as anomaly 
 
 * **New/reappearing objects**
+  
   Add warmup period to avoid false positives when a person reappears or enters the scene.
 
 * **Smoothing**
+  
   Keep anomaly flag active for a few frames after detection to avoid flickering.
 
 ---
