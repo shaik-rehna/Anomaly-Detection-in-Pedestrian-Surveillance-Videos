@@ -73,7 +73,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ---
 
-###Pipeline with pre-trained YOLOv5 detector
+### Pipeline with pre-trained YOLOv5 detector
 
   ### UCSD Dataset
   
