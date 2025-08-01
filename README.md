@@ -81,6 +81,8 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
   
   ***Average pixel level precision = 0.7723***
   
+![Video](Pre-trained_YOLOv5_detector_based_pipeline/Output_videos_UCSD_Dataset/output_003_10_5_230.gif)
+---
 ![Results](result_pretrained_yolov5_ucsd.png)
 
  ### Avenue Dataset
@@ -89,8 +91,6 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ***Average frame level precision = 0.3880***
 
-![Video](Pre-trained_YOLOv5_detector_based_pipeline/Output_videos_UCSD_Dataset/output_003_10_5_230.gif)
----
 ![Results](result_pretrained_yolov5_Avenue.png)
 
 ---
