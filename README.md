@@ -60,24 +60,33 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 ---
 
 ### Results
-***Pipeline with fine-tuned YOLOv5 model***
 
-  #### Average frame level precision = 0.5882
-  #### Average pixel level precision = 0.4874
+### Pipeline with fine-tuned YOLOv5 model
+
+ ***Average frame level precision = 0.5882***
+ 
+ ***Average pixel level precision = 0.4874***
+ 
 ![Results](result_finetuned_yolov5_Avenue.png)
 
 ---
 
-***Pipeline with pre-trained YOLOv5 detector***
+###Pipeline with pre-trained YOLOv5 detector
 
   ### UCSD Dataset
-  #### Average frame level precision = 0.9914
-  #### Average pixel level precision = 0.7723
+  
+  ***Average frame level precision = 0.9914***
+  
+  ***Average pixel level precision = 0.7723***
+  
 ![Results](result_pretrained_yolov5_ucsd.png)
 
  ### Avenue Dataset
-  #### Average frame level precision = 0.4565
-  #### Average frame level precision = 0.3880
+ 
+***Average frame level precision = 0.4565***
+
+***Average frame level precision = 0.3880***
+
 ![Results](result_pretrained_yolov5_Avenue.png)
 
 ---
