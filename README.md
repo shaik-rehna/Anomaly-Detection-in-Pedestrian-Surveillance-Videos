@@ -10,7 +10,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
   2. Using a pre-trained YOLOv5 model trained on the COCO dataset
 * By fine-tuning on MOT17 dataset alone, the objects other than pedestrian cannot be detected.
 * So the pipeline containing fine-tuned YOLOv5 detector was used for identifying anomalies associated with pedestrians(used for Avenue dataset)
-* Another pipeline containing pretrained YOLOv5 detector was used for identifying wide range of anomlaies like pedestrian running, bicyle and truck ( used for Aveune and UCSD Ped2  datasets)
+* Another pipeline containing pretrained YOLOv5 detector was used for identifying wide range of anomalies like pedestrian running, bicyle and truck ( used for Aveune and UCSD Ped2  datasets)
 ---
 
 ### Key Features
@@ -20,7 +20,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 * **Rule-based anomaly detection** based on velocity and objects
 * Pedestrians crossing a certain velocity threshold are flagged as anomaly
 * Objects such as bicycle, truck are flagged as anomlay
-* **Video output with bounding boxes and IDs** (Red = anomaly)
+* Video output with bounding boxes and IDs (Red = anomaly)
 * Easily tunable parameters: velocity threshold, smoothing
 
 
@@ -41,21 +41,19 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 ---
 
-### Key Anomaly Logic
+#### Key Anomaly Logic
+  
+  * Track object motion over frames using DeepSORT. If speed exceeds a set threshold → mark as anomaly
+  
+  * Object like bicycle, truck → mark as anomaly 
 
-* **High velocity**
+#### **New/reappearing objects**
   
-  Track object motion over frames using DeepSORT. If speed exceeds a set threshold → mark as anomaly
-  
-  Object like bicycle, truck → mark as anomaly 
+  Add warmup period to avoid false positives when a person reappears or enters the scene
 
-* **New/reappearing objects**
+#### **Smoothing**
   
-  Add warmup period to avoid false positives when a person reappears or enters the scene.
-
-* **Smoothing**
-  
-  Keep anomaly flag active for a few frames after detection to avoid flickering.
+  Keep anomaly flag active for a few frames after detection to avoid flickering
 
 ---
 
