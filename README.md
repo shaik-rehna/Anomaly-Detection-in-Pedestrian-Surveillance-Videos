@@ -34,7 +34,7 @@ Seasons of Code 2025, Web and Coding Club, IIT BOMBAY
 
 * [UCSD Ped2](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm) — for testing anomaly detection
   
-***Citation:***
+***Dataset:***
 ***Anomaly Detection in Crowded Scenes.***
 ***V. Mahadevan, W. Li, V. Bhalodia and N. Vasconcelos.***
 ***In Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), San Francisco, CA, 2010***
